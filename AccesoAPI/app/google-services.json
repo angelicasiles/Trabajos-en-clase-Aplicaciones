@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "186541561201",
+    "project_id": "proyecto2023-991f1",
+    "storage_bucket": "proyecto2023-991f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186541561201:android:ea435d7593022e798f12d0",
+        "android_client_info": {
+          "package_name": "com.lospoderosos.proyecto_moviles"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7oTTjdIRaMrTZgMgm4TBPSOT-FilFBRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

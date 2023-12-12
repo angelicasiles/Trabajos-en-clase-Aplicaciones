@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:stretchColumns="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:text="Compañía Entregar"
+            android:background="#27DCF9">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="85dp"
+            android:text="Vins et alcools Chevalier"
+            />
+
+        <TextView
+            android:id="@+id/fecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1994-09-01"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="85dp"></TextView>
+
+        <Button
+            android:id="@+id/agregar"
+            android:layout_width="100dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="300dp"
+            android:text="Agregar Product"
+            android:visibility="visible"></Button>
+
+
+    </RelativeLayout>
+<TableRow
+    android:layout_marginTop="30dp">
+    <TextView
+        android:text="Código"
+        android:padding="3dip" />
+    <TextView
+        android:id="@+id/codeProduc"
+        android:gravity="right"
+        android:padding="3dip" />
+</TableRow>
+
+<TableRow>
+    <TextView
+        android:text="Producto"
+        android:padding="3dip" />
+    <TextView
+        android:id="@+id/produc"
+        android:text=""
+        android:gravity="right"
+        android:padding="3dip" />
+</TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Precio Unitario"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/priceUni"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Cantidad"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/cant"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Descuento %"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/descuento"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Sub Total"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/total"
+            android:gravity="right"
+            android:padding="3dip" />
+
+    </TableRow>
+
+
+<RelativeLayout
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:textStyle="bold"
+        android:text="Cancelar Compra"></Button>
+
+    <Button
+        android:id="@+id/aplicar_button"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Aplicar Compra"
+        android:textStyle="bold"
+        android:layout_marginLeft="220dp"></Button>
+</RelativeLayout>
+</TableLayout>

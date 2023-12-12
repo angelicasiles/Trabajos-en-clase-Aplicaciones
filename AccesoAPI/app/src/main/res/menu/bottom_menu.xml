@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_home"
+        android:title="Inicio"
+        android:icon="@drawable/baseline_home_24"></item>
+
+    <item
+        android:id="@+id/bottom_files"
+        android:title="Bio-Informacion"
+        android:icon="@drawable/baseline_insert_drive_file_24"></item>
+
+    <item
+        android:title=""
+        android:enabled="true"></item>
+
+    <item
+        android:id="@+id/bottom_galery"
+        android:title="Galria"
+        android:icon="@drawable/baseline_image_24"></item>
+
+    <item
+        android:id="@+id/bottom_profile"
+        android:title="Perfil"
+        android:icon="@drawable/baseline_person_24"></item>
+
+
+
+
+</menu>

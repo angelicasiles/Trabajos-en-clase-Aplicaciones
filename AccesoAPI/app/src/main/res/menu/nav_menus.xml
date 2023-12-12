@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Inicio"></item>
+
+        <item
+            android:id="@+id/nav_galery"
+            android:icon="@drawable/baseline_image_24"
+            android:title="Galeria"></item>
+
+        <item
+            android:id="@+id/nav_files"
+            android:title="Bio-Informacion"
+            android:icon="@drawable/baseline_insert_drive_file_24"></item>
+
+
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/baseline_person_24"
+            android:title="Perfil"></item>
+
+        <item
+            android:id="@+id/nav_addProyect"
+            android:icon="@drawable/baseline_add_circle_24"
+            android:title="Agregar Proyecto"></item>
+
+        <item
+            android:id="@+id/nav_aboutUs"
+            android:icon="@drawable/baseline_info_24"
+            android:title="About us"></item>
+
+    </group>
+
+
+</menu>

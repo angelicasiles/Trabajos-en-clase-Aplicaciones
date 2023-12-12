@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1043269205993",
+    "project_id": "fir-access-35e90",
+    "storage_bucket": "fir-access-35e90.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043269205993:android:1005acb59bda349fb49578",
+        "android_client_info": {
+          "package_name": "com.marvin.a14_firebaseaccess"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA17rPySkC-I5EYwjWM6NzaTaIDRv_becY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
